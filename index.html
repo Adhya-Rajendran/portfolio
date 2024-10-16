@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- CSS -->
+     <link rel="stylesheet" href="./style.css">
+     <!-- fontawesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+      <!-- animate style -->
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  <!-- aos -->
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+   <div id="container">
+        <!-- nav bar -->
+         <nav>
+            <!-- logo -->
+             <img class="logo" src="./images/arlogo.png" alt="no image">
+             <!-- links -->
+              <ul>
+                <li class="list-items" ><a class="links" href="#container">Home</a></li>
+                <li class="list-items"><a class="links" href="#about">About</a></li>
+                <li class="list-items"><a class="links" href="#skills">Skills</a></li>
+                <li class="list-items"><a class="links" href="#contact">Contact</a></li>
+              </ul>
+         </nav>
+         <!-- home -->
+         <section id="home">
+            <div class="home-content">
+               <h1 class="animate__animated animate__bounce" id="username">I'm <span id="fname">Adhya</span> Rajendran</h1>
+               <p id="user-details">This is my official portfolio website to describe all 
+                  <br> details and work experience in web development</p>
+                  <!-- used an attribute download to download resume otherwise we can only open the resume file -->
+               <a id="download" href="./images/Adhya Rajendran - Resume .pdf"download>Download CV</a>
+
+            </div>
+            <div class="home-img">
+               <!-- shape -->
+               <img id="shape" class="group1" src="./images/bg-final.png" alt="shape">
+
+               <!-- girl -->
+                <img id="girl" class="group1" src="./images/businesslady-final.png" alt="girl">
+            </div>
+         </section>
+
+
+
+          <!-- about -->
+         <section id="about">
+            <div class="sectionhead">
+               <h2 class="mainhead">About Me</h2>
+               <span class="subhead">Introduction</span>
+            </div>
+            <div class="aboutbody">
+               <div data-aos="fade-right" class="aboutimage">
+                  <img class="img1" src="./images/about me.avif" alt="no image">
+               </div>
+               <div class="aboutcontent">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius excepturi ab, vel blanditiis a labore vitae, corporis aperiam consequuntur, dicta itaque quos consectetur? Enim deleniti aperiam consectetur? Officiis, dolorum ipsa.</p>
+                  <div class="information">
+                     <div class="infobox">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Adhya Rajendran</span>
+                     </div>
+                     <div class="infobox">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>9874584755</span>
+                     </div>
+                     <div class="infobox">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>adhyarajendran@gmail.com</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </section>
+
+
+
+
+           <!-- skill -->
+
+           <section id="skills">
+            <div class="sectionhead">
+               <h2 class="mainhead">Skills</h2>
+               <span class="subhead">My Skills</span>
+            </div>
+           </section>
+
+           <div class="skillcontents">
+            <div class="progressbar">
+               <!-- progress bar -->
+                <div class="bars">
+                  <h3 class="barhead">HTML</h3>
+                  <span class="barpercent">84%</span>
+                  <div class="basebar"></div>
+                  <div data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine"  class="htmlbar basebar"></div>
+                </div>
+                <div class="bars">
+                  <h3 class="barhead">CSS</h3>
+                  <span class="barpercent">79%</span>
+                  <div class="basebar"></div>
+                  <div data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine" class="cssbar basebar"></div>
+                </div>
+                <div class="bars">
+                  <h3 class="barhead">JS</h3>
+                  <span class="barpercent">70%</span>
+                  <div class="basebar"></div>
+                  <div data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine" class="jsbar basebar"></div>
+                </div>
+                <div class="bars">
+                  <h3 class="barhead">REACT</h3>
+                  <span class="barpercent">85%</span>
+                  <div class="basebar"></div>
+                  <div data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine" class="reactbar basebar"></div>
+                </div>
+            </div>
+            <div data-aos="fade-left" class="skillimage">
+               <img width="70%" src="./images/skills.webp" alt="no image">
+            </div>
+           </div>
+            <!-- contact -->
+            <section id="contact">
+               <div class="sectionhead">
+                  <h2 class="mainhead">Contacts</h2>
+                  <span class="subhead">My Contacts</span>
+               </div>
+               <div class="iconcollections">
+                  <!-- linkedin -->
+                  <div class="icon">
+                     <a href="https://www.linkedin.com/in/adhya-rajendran-aab598200/" target="_blank"><i class="fa-brands fa-linkedin brands"></i></a>
+                  </div>
+                  <!-- github -->
+                  <div class="icon">
+                     <a href="www.linkedin.com/in/adhya-rajendran-aab598200" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+                  </div>
+                  <!-- whatapp -->
+                  <div class="icon">
+                     <a href="www.linkedin.com/in/adhya-rajendran-aab598200" target="_blank"><i class="fa-brands fa-whatsapp brands"></i></a>
+                  </div>
+                  <!-- facebook -->
+                  <div class="icon">
+                     <a href="www.linkedin.com/in/adhya-rajendran-aab598200" target="_blank"><i class="fa-brands fa-facebook brands"></i></a>
+                  </div>
+                  <!-- instagram -->
+                  <div class="icon">
+                     <a href="www.linkedin.com/in/adhya-rajendran-aab598200" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+                  </div>
+                  <!-- x -->
+                  <div class="icon">
+                     <a href="www.linkedin.com/in/adhya-rajendran-aab598200" target="_blank"><i class="fa-brands fa-x-twitter brands"></i></a>
+                  </div>
+
+               </div>
+            </section>
+
+
+             <!-- footer -->
+
+             <footer>
+               <p id="copyright">&copy;My portfolio Website-October 2024, All RightsReserved to &reg; Adhya Rajendran</p>
+               <div class="icon uparrow">
+                  <a href="#container"><i class="fa-solid fa-chevron-up brands"></i></a>
+               </div>
+             </footer>
+   </div>
+</body>
+<!-- js aos cdn -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+   AOS.init();
+ </script>
+
+</html>
